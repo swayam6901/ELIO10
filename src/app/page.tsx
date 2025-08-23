@@ -1,6 +1,6 @@
 'use client'
 
-...
+
 
 <input
   type="text"
