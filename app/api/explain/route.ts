@@ -4,6 +4,7 @@ import OpenAI from 'openai'
 // Initialize OpenAI client
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
+  base_url="https://api.chatanywhere.tech/v1"
 })
 
 export async function POST(request: Request) {
